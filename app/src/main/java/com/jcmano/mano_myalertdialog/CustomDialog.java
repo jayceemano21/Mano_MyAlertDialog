@@ -51,6 +51,8 @@ public class CustomDialog extends DialogFragment {
             }
         });
 
+        builder.setTitle("Login");
+
         //return super.onCreateDialog(savedInstanceState);
         Dialog dialog = builder.create();
         return dialog;
